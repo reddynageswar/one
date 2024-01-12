@@ -6,8 +6,9 @@
   <title>Login Page</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #282c34;
+      color: #61dafb;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -17,7 +18,7 @@
 
     h2 {
       text-align: center;
-      color: #333;
+      color: #61dafb;
     }
 
     form {
@@ -25,8 +26,8 @@
       margin: 20px auto;
       padding: 20px;
       background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     }
 
     label {
@@ -37,19 +38,19 @@
 
     input {
       width: 100%;
-      padding: 8px;
+      padding: 10px;
       margin-bottom: 16px;
       box-sizing: border-box;
       border: 1px solid #ccc;
-      border-radius: 4px;
+      border-radius: 5px;
     }
 
     button {
-      background-color: #4caf50;
+      background-color: #61dafb;
       color: #fff;
-      padding: 10px 15px;
+      padding: 12px 15px;
       border: none;
-      border-radius: 4px;
+      border-radius: 5px;
       cursor: pointer;
       font-size: 16px;
       width: 100%;
